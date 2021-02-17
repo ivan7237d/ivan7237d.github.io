@@ -1,75 +1,96 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://ivan7237d.github.io`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Ivan Novikov',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Ivan Novikov`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Solopreneur & freelance front-end developer`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@ivan7237d`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/ivan7237d`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a NYC-based developer specializing in web apps that have a lot happening on the front-end.`,
+    apps: [
+      {
+        name:
+          'Obvibase v2 / A distraction-free online database editor / 2016-2020',
+        description:
+          'Client fully rewritten using TypeScript, RxJS and React. All UI widgets custom-built. Non-UI logic is  offloaded  to a web worker. PWA (implemented using Workbox and IndexedDB).',
+        link: 'https://www.obvibase.com/',
+      },
+      {
+        name: 'JSCalc  / A tool to create online calculators / 2014-2015',
+        description:
+          'AngularJS/Angular Material, Node, MongoDB, Express, SASS.',
+        link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
+      },
+      {
+        name:
+          'Obvibase v1 / Original version built with Google Closure Tools / 2012-2016',
+        description:
+          'Closure Compiler/Library/Templates/Stylesheets, Stripe, Google App Engine (Python), Google Cloud Datastore.',
+        link: 'https://www.youtube.com/watch?v=hCPJCAen5Bw',
+      },
+    ],
+    articles: [
+      {
+        name: 'Log and test RxJS observables with 1log / Feb 1, 2021',
+        description: 'Intoduction to 1log library for RxJS users.',
+        link:
+          'https://dev.to/ivan7237d/log-and-test-rxjs-observables-with-1log-5cbm',
+      },
+      {
+        name: 'How Obvibase uses Web Workers / Jun 30, 2020',
+        description:
+          'A build process that uses TS compiler and Webpack to offload some modules to a Web Worker.',
+        link: 'https://www.obvibase.com/dev-blog/how-obvibase-uses-web-workers',
+      },
+    ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: '1log  / Log function with superpowers / 2020-2021',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'This library provides a function log() that can be used as the regular console.log(), but has two superpowers: you can insert it into any expression, as in f(log(x)), and it supports plugins. There are plugins for setting severity level, for logging functions, promises, iterables, and observables, for creating snapshots of log messages in Jest tests, and more.',
+        link: 'https://github.com/ivan7237d/1log',
       },
       {
-        name: 'ChromeExtensionKit',
+        name:
+          "Antiutils  / TS/JS utilities for those who don't like utilities / 2020-2021",
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Based on "only one way to do it" principle, this library provides a utility only when something can\'t be easily and readably accomplished with vanilla JavaScript. Includes a pipeline operator ponyfill, non-mutating functions for working with objects, arrays, maps, sets, and iterables, lenses, memoization utilities, and more.',
+        link: 'https://github.com/ivan7237d/antiutils',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Obvibase / 2012 - Present',
+        description: 'Founder',
+        link: 'https://www.obvibase.com',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Egar Technology / 2004-2016',
+        description: 'Business analyst',
+        link: 'http://www.egartech.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Technologies',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'In-depth knowledge: JavaScript, TypeScript, RxJS, React, CSS. Experienced in: Webpack, modern browser APIs including web/service workers, Jest, Google App Engine & Cloud Datastore, Stripe API, Python.',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'Languages',
+        description: 'English, Russian, intermediate French',
       },
     ],
   },
