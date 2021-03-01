@@ -21,7 +21,7 @@ module.exports = {
         name:
           'Obvibase v2 / A distraction-free online database editor / 2016-2020',
         description:
-          'Client fully rewritten using TypeScript, RxJS and React. All UI widgets custom-built. Non-UI logic is  offloaded  to a web worker. PWA (implemented using Workbox and IndexedDB).',
+          'Client fully rewritten using TypeScript, RxJS, React, Webpack, Jest. All non-UI logic is offloaded to a web worker. The client is a PWA built with Workbox and IndexedDB. Custom UI components including a windowed list and a specialized rich text editor.',
         link: 'https://www.obvibase.com/',
       },
       {
@@ -71,13 +71,14 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Obvibase / 2012 - Present',
-        description: 'Founder',
+        name: 'Obvibase / Founder / 2012 - Present',
+        description: 'Worked full-time on Obvibase v2',
         link: 'https://www.obvibase.com',
       },
       {
-        name: 'Egar Technology / 2004-2016',
-        description: 'Business analyst',
+        name: 'Egar Technology / Business analyst / 2004-2016',
+        description:
+          'Design/deployment of custom enhancements to the company’s B2B software products, institutional sales/support, negotiation/design/ deployment of integrations with partner services.',
         link: 'http://www.egartech.com/',
       },
     ],
