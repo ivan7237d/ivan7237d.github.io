@@ -40,6 +40,14 @@ module.exports = {
     ],
     articles: [
       {
+        name:
+          "I've used the pipe() function 2,560 times and I can tell you it's good! / Mar 3, 2021",
+        description:
+          'Reasons to use a utility function that lets you replace b(a(x)) with pipe(x, a, b).',
+        link:
+          'https://dev.to/ivan7237d/i-ve-used-the-pipe-function-2-560-times-and-i-can-tell-you-it-s-good-4aal',
+      },
+      {
         name: 'Log and test RxJS observables with 1log / Feb 1, 2021',
         description: 'Intoduction to 1log library for RxJS users.',
         link:
@@ -71,8 +79,8 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Obvibase / Founder / 2012 - Present',
-        description: 'Worked full-time on Obvibase v2',
+        name: 'Obvibase / Founder / 2016 - Present',
+        description: 'Worked full-time on Obvibase v2.',
         link: 'https://www.obvibase.com',
       },
       {
@@ -91,7 +99,7 @@ module.exports = {
       },
       {
         name: 'Languages',
-        description: 'English, Russian, intermediate French',
+        description: 'English, Russian, intermediate French.',
       },
     ],
   },
