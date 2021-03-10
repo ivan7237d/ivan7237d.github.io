@@ -45,13 +45,13 @@ module.exports = {
         description:
           'Reasons to use a utility function that lets you replace b(a(x)) with pipe(x, a, b).',
         link:
-          'https://dev.to/ivan7237d/i-ve-used-the-pipe-function-2-560-times-and-i-can-tell-you-it-s-good-4aal',
+          'https://www.obvibase.com/dev-blog/i-ve-used-the-pipe-function-2-560-times-and-i-can-tell-you-it-s-good',
       },
       {
         name: 'Log and test RxJS observables with 1log / Feb 1, 2021',
         description: 'Intoduction to 1log library for RxJS users.',
         link:
-          'https://dev.to/ivan7237d/log-and-test-rxjs-observables-with-1log-5cbm',
+          'https://www.obvibase.com/dev-blog/log-and-test-rxjs-observables-with-1log',
       },
       {
         name: 'How Obvibase uses Web Workers / Jun 30, 2020',
