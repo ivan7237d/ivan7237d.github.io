@@ -41,7 +41,7 @@ module.exports = {
     articles: [
       {
         name:
-          "I've used the pipe() function 2,560 times and I can tell you it's good! / Mar 3, 2021",
+          "I've used the pipe() function 2,560 times and I can tell you it's good! / Mar 3, 2021 / Featured by JavaScript Weekly",
         description:
           'Reasons to use a utility function that lets you replace b(a(x)) with pipe(x, a, b).',
         link:
