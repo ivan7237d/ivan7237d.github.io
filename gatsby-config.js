@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Ivan Novikov`,
     // Description that goes under your name in main bio
-    description: `Solopreneur & freelance front-end developer`,
+    description: `NYC-based solopreneur & freelance developer focusing on the front end`,
     // Optional: Twitter account handle
     author: `@ivan7237d`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `I'm a NYC-based developer specializing in web apps that have a lot happening on the front-end.`,
+    about: `It's the product that makes a project exciting for me. If it's an innovative product and I know enough of the market to be able to put myself in the user's shoes, this means I'm not just coding but building - it's more challenging and more interesting, even when you're doing only a specific part. Do reach out to me if you are looking for a front-end developer: Twitter DMs are open, and my email is on my GitHub profile.`,
     apps: [
       {
         name:
