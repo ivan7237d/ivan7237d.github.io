@@ -21,11 +21,11 @@ module.exports = {
         name:
           'Obvibase v2 / A distraction-free online database editor / 2016-2020',
         description:
-          'Client fully rewritten using TypeScript, RxJS, React, Webpack, Jest. All non-UI logic is offloaded to a web worker. The client is a PWA built with Workbox and IndexedDB. Custom UI components including a windowed list and a specialized rich text editor.',
+          'Client fully rewritten using TypeScript, RxJS, React, Webpack, Jest. The client is a PWA (works offline, data synced in real-time between IndexedDB/memory/server, non-UI logic run in a Web Worker). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. Gracefully handles lie-fi and version upgrades.',
         link: 'https://www.obvibase.com/',
       },
       {
-        name: 'JSCalc  / A tool to create online calculators / 2014-2015',
+        name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
         description:
           'AngularJS/Angular Material, Node, MongoDB, Express, SASS.',
         link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
@@ -85,8 +85,7 @@ module.exports = {
       },
       {
         name: 'Egar Technology / Business analyst / 2004-2016',
-        description:
-          'Design/deployment of custom enhancements to the company’s B2B software products, institutional sales/support, negotiation/design/ deployment of integrations with partner services.',
+        description: `Custom enhancements to the company's B2B software (from gathering initial requirements to deployment), institutional sales/support, negotiation/design/deployment of integrations with partner services.`,
         link: 'http://www.egartech.com/',
       },
     ],
@@ -95,7 +94,7 @@ module.exports = {
       {
         name: 'Technologies',
         description:
-          'In-depth knowledge: JavaScript, TypeScript, RxJS, React, CSS. Experienced in: Webpack, modern browser APIs including web/service workers, Jest, Google App Engine & Cloud Datastore, Stripe API, Python.',
+          'In-depth knowledge: JavaScript, TypeScript, RxJS, React, CSS, Webpack, modern browser APIs including web/service workers, Jest, Google App Engine & Cloud Datastore, Stripe API, Python.',
       },
       {
         name: 'Languages',
