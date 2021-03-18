@@ -27,7 +27,7 @@ module.exports = {
       {
         name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
         description:
-          'AngularJS/Angular Material, Node, MongoDB, Express, SASS.',
+          'AngularJS/Angular Material, Node, MongoDB, Express, SASS, Web Worker.',
         link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
       },
       {
