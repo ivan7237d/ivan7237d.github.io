@@ -15,13 +15,13 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `It's the product that makes a project exciting for me. If it's an innovative product and I know enough of the market to be able to put myself in the user's shoes, this means I'm not just coding but building - it's more challenging and more interesting, even when you're doing only a specific part. Do reach out to me if you are looking for a front-end developer: Twitter DMs are open, and my email is on my GitHub profile.`,
+    about: `As a solopreneur I've been building from start to finish web apps with most of the logic on the front end. Do reach out to me if you are looking for a front-end developer: Twitter DMs are open, and my email is on my GitHub profile.`,
     apps: [
       {
         name:
           'Obvibase v2 / A distraction-free online database editor / 2016-2020',
         description:
-          'Client fully rewritten using TypeScript, RxJS, React, Webpack, Jest. The client is a PWA (works offline, data synced in real-time between IndexedDB/memory/server, non-UI logic run in a Web Worker). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. Gracefully handles lie-fi and version upgrades.',
+          'All-new client built with TypeScript, RxJS, React, Webpack, Jest. The client is a PWA (works offline, data synced in real-time between IndexedDB/memory/server, non-UI logic run in a Web Worker). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. Gracefully handles lie-fi and version upgrades.',
         link: 'https://www.obvibase.com/',
       },
       {
