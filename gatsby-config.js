@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `It's the end product that makes a project exciting for me. I like coding, but what I like even more is figuring out ways to achieve the same ends with less code and less complexity. I've had an opportunity to practice this type of thinking as a solopreneur, and I'm looking at freelance and startup work as a way to keep practicing it, but at the same time grow professionally through interaction with new colleagues and new technologies. Feel free to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
+    about: `I like coding, but what I like even more is figuring out ways to achieve the same ends with less code and less complexity. I've had an opportunity to practice this type of thinking as a solopreneur, and I'm looking at freelance and startup work as a way to keep practicing it, but at the same time grow professionally through interaction with new colleagues and new technologies. Feel free to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
     apps: [
       {
         name:
