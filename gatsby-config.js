@@ -21,7 +21,7 @@ module.exports = {
         name:
           'Obvibase v2 / A distraction-free online database editor / 2016-2020',
         description:
-          'All-new client built with TypeScript, RxJS, React, Webpack, Jest. The client is a PWA (works offline, data synced in real-time between IndexedDB/memory/server, non-UI logic run in a Web Worker). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor.',
+          'All-new client built with TypeScript, RxJS, React, Webpack, Jest. The client is a PWA (implemented with Workbox, supports offline editing, data synced in real-time between IndexedDB, browser tabs and the server). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. All non-UI logic is run in a Web Worker.',
         link: 'https://www.obvibase.com/',
       },
       {
