@@ -82,12 +82,13 @@ module.exports = {
         name:
           'Love Stories TV (via A.Team) / Front-end software engineer / May-December 2021',
         description:
-          'Helped transition the website to Next.js, developed a framework for reporting UI interactions to analytics platforms, implemented new UI components and features',
+          'Helped transition the website to Next.js, developed a framework for reporting UI interactions to analytics platforms, implemented new UI components and features with TypeScript, React and styled-components.',
         link: 'https://lovestoriestv.com/',
       },
       {
         name: 'Obvibase / Founder / 2016 - 2021',
-        description: 'Worked full-time on Obvibase v2.',
+        description:
+          'Worked full-time on Obvibase v2 (please see below for technologies used).',
         link: 'https://www.obvibase.com',
       },
       {
