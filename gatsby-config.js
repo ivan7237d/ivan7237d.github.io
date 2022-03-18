@@ -88,7 +88,7 @@ module.exports = {
       {
         name: 'Obvibase / Founder / 2016 - 2021',
         description:
-          'Worked full-time on Obvibase v2 (please see below for technologies used).',
+          'Worked full-time on Obvibase v2 (please see Apps section below for technologies used).',
         link: 'https://www.obvibase.com',
       },
       {
