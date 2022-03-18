@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Ivan Novikov`,
     // Description that goes under your name in main bio
-    description: `NYC-based solopreneur & freelance developer (full-stack, focusing on the front end)`,
+    description: `NYC-based front-end software engineer`,
     // Optional: Twitter account handle
     author: `@ivan7237d`,
     // Optional: Github account URL
@@ -88,7 +88,7 @@ module.exports = {
       {
         name: 'Obvibase / Founder / 2016 - 2021',
         description:
-          'Worked full-time on Obvibase v2 (please see Apps section below for technologies used).',
+          'Worked as a full-time solopreneur on Obvibase v2 (please see Apps section below for technologies used).',
         link: 'https://www.obvibase.com',
       },
       {
