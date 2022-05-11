@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `I like coding, and I'm especially happy when that means finding a way to get to the end goal with less coding. I have worked as a solopreneur building front-end-heavy web apps from start to finish and thinking of the product as a whole, and I have also worked as a freelance developer focusing just on the front end. Feel free to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
+    about: `I have worked as a solopreneur building front-end-heavy web apps from start to finish, and also as a freelance front-end engineer. I love the challenge we face as engineers of being pragmatic and finding the simplest possible solution, but at the same time using beautiful technology such as functional programming where it's appropriate. I have extensive experience with TypeScript, React, RxJS, and have taken on such tasks as delegation of processing to a web worker, building an infinitely scrollable list, building a rich text editor editor, and creating a developer-friendly API for reporting all user interactions to analytics platforms. Feel free to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
     apps: [
       {
         name:
