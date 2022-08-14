@@ -16,28 +16,28 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
     about: `I have worked as a solopreneur building front-end-heavy web apps from start to finish, and also as a freelance front-end engineer. I have extensive experience with TypeScript, React, RxJS, Next.js, GraphQL/Apollo and various browser APIs, but would love to try out new stuff such as Remix or Elm in my future missions. Don't hesitate to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
-    // apps: [
-    //   {
-    //     name:
-    //       'Obvibase v2 / A distraction-free online database editor / 2016-2020',
-    //     description:
-    //       'All-new client built with TypeScript, RxJS, React, Webpack, and Jest. The client is a PWA (implemented with Workbox, supports offline editing, data synced in real-time between IndexedDB, browser tabs and the server). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. All non-UI logic is run in a Web Worker.',
-    //     link: 'https://www.obvibase.com/',
-    //   },
-    //   {
-    //     name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
-    //     description:
-    //       'AngularJS/Angular Material, Node, MongoDB, Express, SASS, Web Worker.',
-    //     link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
-    //   },
-    //   {
-    //     name:
-    //       'Obvibase v1 / Original version built with Google Closure Tools / 2012-2016',
-    //     description:
-    //       'Closure Compiler/Library/Templates/Stylesheets, Stripe, Google App Engine (Python), Google Cloud Datastore.',
-    //     link: 'https://www.youtube.com/watch?v=hCPJCAen5Bw',
-    //   },
-    // ],
+    apps: [
+      // {
+      //   name:
+      //     'Obvibase v2 / A distraction-free online database editor / 2016-2020',
+      //   description:
+      //     'All-new client built with TypeScript, RxJS, React, Webpack, and Jest. The client is a PWA (implemented with Workbox, supports offline editing, data synced in real-time between IndexedDB, browser tabs and the server). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. All non-UI logic is run in a Web Worker.',
+      //   link: 'https://www.obvibase.com/',
+      // },
+      // {
+      //   name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
+      //   description:
+      //     'AngularJS/Angular Material, Node, MongoDB, Express, SASS, Web Worker.',
+      //   link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
+      // },
+      // {
+      //   name:
+      //     'Obvibase v1 / Original version built with Google Closure Tools / 2012-2016',
+      //   description:
+      //     'Closure Compiler/Library/Templates/Stylesheets, Stripe, Google App Engine (Python), Google Cloud Datastore.',
+      //   link: 'https://www.youtube.com/watch?v=hCPJCAen5Bw',
+      // },
+    ],
     articles: [
       {
         name:
