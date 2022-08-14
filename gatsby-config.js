@@ -15,29 +15,29 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ivan-novikov-1881981b3/`,
     // Content of the About Me section
-    about: `I have worked as a solopreneur building front-end-heavy web apps from start to finish, and also as a freelance front-end engineer. I love the challenge we face as engineers of being pragmatic and finding the simplest possible solution, but at the same time using beautiful technology such as functional programming where it's appropriate. I have extensive experience with TypeScript, React, RxJS, and have taken on such tasks as delegation of processing to a web worker, building an infinitely scrollable list, building a rich text editor editor, and creating a developer-friendly API for reporting all user interactions to analytics platforms. Feel free to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
-    apps: [
-      {
-        name:
-          'Obvibase v2 / A distraction-free online database editor / 2016-2020',
-        description:
-          'All-new client built with TypeScript, RxJS, React, Webpack, and Jest. The client is a PWA (implemented with Workbox, supports offline editing, data synced in real-time between IndexedDB, browser tabs and the server). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. All non-UI logic is run in a Web Worker.',
-        link: 'https://www.obvibase.com/',
-      },
-      {
-        name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
-        description:
-          'AngularJS/Angular Material, Node, MongoDB, Express, SASS, Web Worker.',
-        link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
-      },
-      {
-        name:
-          'Obvibase v1 / Original version built with Google Closure Tools / 2012-2016',
-        description:
-          'Closure Compiler/Library/Templates/Stylesheets, Stripe, Google App Engine (Python), Google Cloud Datastore.',
-        link: 'https://www.youtube.com/watch?v=hCPJCAen5Bw',
-      },
-    ],
+    about: `I have worked as a solopreneur building front-end-heavy web apps from start to finish, and also as a freelance front-end engineer. I have extensive experience with TypeScript, React, RxJS, Next.js, GraphQL/Apollo and various browser APIs, but would love to try out new stuff such as Remix or Elm in my future missions. Don't hesitate to reach out: Twitter DMs are open, and my email is on my GitHub profile.`,
+    // apps: [
+    //   {
+    //     name:
+    //       'Obvibase v2 / A distraction-free online database editor / 2016-2020',
+    //     description:
+    //       'All-new client built with TypeScript, RxJS, React, Webpack, and Jest. The client is a PWA (implemented with Workbox, supports offline editing, data synced in real-time between IndexedDB, browser tabs and the server). UI components include custom widgets, a windowed list to efficiently render large tables, and a specialized rich text editor. All non-UI logic is run in a Web Worker.',
+    //     link: 'https://www.obvibase.com/',
+    //   },
+    //   {
+    //     name: 'JSCalc  / A web app for creating online calculators / 2014-2015',
+    //     description:
+    //       'AngularJS/Angular Material, Node, MongoDB, Express, SASS, Web Worker.',
+    //     link: 'https://www.youtube.com/watch?v=bLIiqTTu8eo',
+    //   },
+    //   {
+    //     name:
+    //       'Obvibase v1 / Original version built with Google Closure Tools / 2012-2016',
+    //     description:
+    //       'Closure Compiler/Library/Templates/Stylesheets, Stripe, Google App Engine (Python), Google Cloud Datastore.',
+    //     link: 'https://www.youtube.com/watch?v=hCPJCAen5Bw',
+    //   },
+    // ],
     articles: [
       {
         name:
@@ -65,19 +65,26 @@ module.exports = {
       {
         name: '1log  / Log function with superpowers / 2020-2021',
         description:
-          'This library provides a function log() that can be used as the regular console.log(), but has two superpowers: you can insert it into any expression, as in f(log(x)), and it supports plugins. There are plugins for setting severity level, for logging functions, promises, iterables, and observables, for creating snapshots of log messages in Jest tests, and more.',
+          'This library provides a function log() that can be used as the regular console.log(), but has two superpowers: you can insert it into any expression, as in f(log(x)), and it supports plugins.',
         link: 'https://github.com/ivan7237d/1log',
       },
       {
         name:
           "Antiutils  / TS/JS utilities for those who don't like utilities / 2020-2021",
         description:
-          'Based on "only one way to do it" principle, this library provides a utility only when something can\'t be easily and readably accomplished with vanilla JavaScript. Includes a pipeline operator ponyfill, non-mutating functions for working with objects, arrays, maps, sets, and iterables, lenses, memoization utilities, and more.',
+          'Based on "only one way to do it" principle, this library provides a utility only when something can\'t be easily and readably accomplished with vanilla JavaScript.',
         link: 'https://github.com/ivan7237d/antiutils',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name:
+          'McGraw Hill Education (via A.Team) / Front-end software engineer / May 2022 - present',
+        description:
+          'Helped build from the ground up an internal web app focused on data entry, implemented with Next.js and Apollo.',
+        link: 'https://www.mheducation.com/',
+      },
       {
         name:
           'Love Stories TV (via A.Team) / Front-end software engineer / May-December 2021',
@@ -88,7 +95,7 @@ module.exports = {
       {
         name: 'Obvibase / Founder / 2016 - 2021',
         description:
-          'Worked as a full-time solopreneur on Obvibase v2 (please see Web Apps section below for technologies used).',
+          'Worked as a full-time solopreneur on Obvibase. Obvibase is a PWA that lets you easily create online databases. It supports real-time data sync and offline editing, and uses web workers and windowed lists to achieve good performance for larger databases. The backend runs on Google App Engine (Python) and Google Cloud Datastore, the front end is implemented with Typescript, RxJS and React.',
         link: 'https://www.obvibase.com',
       },
       {
@@ -102,11 +109,11 @@ module.exports = {
       {
         name: 'Technologies',
         description:
-          'JavaScript, TypeScript, React, CSS, RxJS, Next.js, modern browser APIs including web/service workers, Jest, Google App Engine & Cloud Datastore, Stripe API, Python.',
+          'JavaScript, TypeScript, RxJS, React, CSS/SCSS/CSS-in-JS, Next.js, GraphQL/Apollo, web/service workers, Indexed DB, Jest, Google App Engine & Cloud Datastore, Stripe API, Python.',
       },
       {
         name: 'Languages',
-        description: 'English, Russian, intermediate French.',
+        description: 'English, Russian, French.',
       },
     ],
   },

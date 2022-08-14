@@ -32,8 +32,8 @@ const Index = ({ data }) => {
         <SectionExperience experience={experience} />
       )}
       {apps && apps.length && <SectionApps apps={apps} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
       {articles && articles.length && <SectionArticles articles={articles} />}
+      {projects && projects.length && <SectionProjects projects={projects} />}
       {!noBlog && <SectionBlog posts={posts} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
