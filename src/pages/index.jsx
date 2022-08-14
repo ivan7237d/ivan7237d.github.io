@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
 import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
-import SectionApps from '../components/section-apps';
+// import SectionApps from '../components/section-apps';
 import SectionArticles from '../components/section-articles';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
@@ -15,7 +15,7 @@ import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-  const apps = get(data, 'site.siteMetadata.apps', false);
+  // const apps = get(data, 'site.siteMetadata.apps', false);
   const articles = get(data, 'site.siteMetadata.articles', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
   const posts = data.allMarkdownRemark.edges;
@@ -31,7 +31,7 @@ const Index = ({ data }) => {
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
-      {apps && apps.length && <SectionApps apps={apps} />}
+      {/* {apps && apps.length && <SectionApps apps={apps} />} */}
       {articles && articles.length && <SectionArticles articles={articles} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
       {!noBlog && <SectionBlog posts={posts} />}
@@ -53,11 +53,6 @@ export const pageQuery = graphql`
         author
         github
         linkedin
-        apps {
-          name
-          description
-          link
-        }
         articles {
           name
           description
