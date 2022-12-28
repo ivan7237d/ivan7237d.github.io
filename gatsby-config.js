@@ -41,14 +41,14 @@ module.exports = {
         name:
           "I've used the pipe() function 2,560 times and I can tell you it's good! / Mar 3, 2021 / Featured by JavaScript Weekly",
         description:
-          'Reasons to use a utility function that lets you replace b(a(x)) with pipe(x, a, b).',
+          'Reasons to use a utility function that lets you replace b(a(x)) with pipe(x, a, b)',
         link:
           'https://www.obvibase.com/dev-blog/i-ve-used-the-pipe-function-2-560-times-and-i-can-tell-you-it-s-good',
       },
       {
         name: 'How Obvibase uses Web Workers / Jun 30, 2020',
         description:
-          'A build process that uses TS compiler and Webpack to offload some modules to a Web Worker.',
+          'A build process that uses TS compiler and Webpack to offload some modules to a Web Worker',
         link: 'https://www.obvibase.com/dev-blog/how-obvibase-uses-web-workers',
       },
     ],
@@ -73,7 +73,7 @@ module.exports = {
         name:
           'Love Stories TV (via A.Team) / Front-end software engineer / May-December 2021',
         description:
-          'Transitioning the website to Next.js, implementing analytics gathering and other features (TypeScript, React, Next, styled-components).',
+          'Transitioning the website to Next.js, implementing analytics gathering and other features (TypeScript, React, Next, styled-components)',
         link: 'https://lovestoriestv.com/',
       },
       {
