@@ -13,7 +13,7 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/ivan7237d`,
     // Content of the About Me section
-    about: `I live in NYC. I started out as a solopreneur building web apps with interesting stuff going on on the front end, and have since been working on A.Team projects as a front-end engineer. Don't hesitate to reach out via Twitter DMs or the email on my GitHub profile.`,
+    about: `I live in NYC. I started out as a solopreneur building web apps with most of the logic on the front end, and have since been working on A.Team projects as a front-end engineer. Don't hesitate to reach out via Twitter DMs or the email on my GitHub profile.`,
     // apps: [
     //   {
     //     name:
@@ -64,7 +64,7 @@ module.exports = {
     experience: [
       {
         name:
-          'McGraw Hill Education (via A.Team) / Front-end software engineer / May 2022 - present',
+          'McGraw Hill Education (via A.Team) / Front-end software engineer / May 2022 - Oct 2023',
         description:
           'Building from the ground up internal and external frontend for Sharpen project (React, TypeScript, Next, Apollo, Tailwind, Framer Motion)',
         link: 'https://www.mheducation.com/sharpen/study-app.html',
