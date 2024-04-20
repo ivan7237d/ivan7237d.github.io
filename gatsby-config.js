@@ -7,13 +7,13 @@ module.exports = {
     // Main Site Title
     title: `Ivan Novikov`,
     // Description that goes under your name in main bio
-    description: `A frontend-leaning fullstack software engineer`,
+    description: `A fullstack software engineer`,
     // Optional: Twitter account handle
     author: `@ivan7237d`,
     // Optional: Github account URL
     github: `https://github.com/ivan7237d`,
     // Content of the About Me section
-    about: `I live in NYC. I started out as a solopreneur building web apps with most of the logic on the front end, and have since been working on A.Team projects as a front-end engineer. Don't hesitate to reach out via Twitter DMs or the email on my GitHub profile.`,
+    about: `I started out as a solopreneur building web apps with some heavy lifting on the front end, and have since been working with wider teams on React/TS/Next.js frontends. I'm based in NYC.`,
     // apps: [
     //   {
     //     name:
@@ -62,6 +62,12 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
+      {
+        name:
+          'McGraw Hill Education / Front-end software engineer / Feb 2024 - present',
+        description: 'Continuing building features for Sharpen project',
+        link: 'https://www.mheducation.com/sharpen/study-app.html',
+      },
       {
         name:
           'McGraw Hill Education (via A.Team) / Front-end software engineer / May 2022 - Oct 2023',
